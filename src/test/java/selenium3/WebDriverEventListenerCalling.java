@@ -19,7 +19,6 @@ public class WebDriverEventListenerCalling {
 		ef.register(eventListener);
 		ef.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		ef.get("https://freecrm.com/");
-		
 		System.out.println(ef.getTitle());
 		System.out.println(ef.getCurrentUrl());
 		ef.findElement(By.xpath("//span[text()='Log In']")).click();
