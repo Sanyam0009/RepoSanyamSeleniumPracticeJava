@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="76851" started-at="2021-02-27T19:53:14Z" finished-at="2021-02-27T19:54:31Z">
+  <suite name="Default suite" duration-ms="26994" started-at="2021-02-28T20:54:01Z" finished-at="2021-02-28T20:54:28Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="76851" started-at="2021-02-27T19:53:14Z" finished-at="2021-02-27T19:54:31Z">
-      <class name="selenium3.FindBrokenLinks">
-        <test-method status="PASS" signature="checkBrokenLinks()[pri:0, instance:selenium3.FindBrokenLinks@475530b9]" name="checkBrokenLinks" duration-ms="76810" started-at="2021-02-28T01:23:14Z" finished-at="2021-02-28T01:24:31Z">
+    <test name="Default test" duration-ms="26994" started-at="2021-02-28T20:54:01Z" finished-at="2021-02-28T20:54:28Z">
+      <class name="selenium3.WebDriverEventListnerCalling">
+        <test-method status="PASS" signature="testingWebDriverEventListner()[pri:0, instance:selenium3.WebDriverEventListnerCalling@6f7fd0e6]" name="testingWebDriverEventListner" duration-ms="26956" started-at="2021-03-01T02:24:01Z" finished-at="2021-03-01T02:24:28Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkBrokenLinks -->
-      </class> <!-- selenium3.FindBrokenLinks -->
+        </test-method> <!-- testingWebDriverEventListner -->
+      </class> <!-- selenium3.WebDriverEventListnerCalling -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

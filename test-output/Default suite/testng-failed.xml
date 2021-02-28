@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="selenium3.SikuliDemo">
+      <class name="selenium3.WebDriverEventListnerCalling">
         <methods>
-          <include name="setup"/>
-          <include name="sikuliAction"/>
+          <include name="testingWebDriverEventListner"/>
         </methods>
-      </class> <!-- selenium3.SikuliDemo -->
+      </class> <!-- selenium3.WebDriverEventListnerCalling -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

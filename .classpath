@@ -35,5 +35,14 @@
 	<classpathentry kind="lib" path="C:/Java_Selenium_Items/Jar_Files/htmlunit-driver-2.47.1-jar-with-dependencies.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="lib" path="C:/Java_Selenium_Items/Jar_Files/sikulixide-2.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/$akshi/.m2/repository/org/testng/testng/6.11/testng-6.11.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.testng"/>
+			<attribute name="maven.artifactId" value="testng"/>
+			<attribute name="maven.version" value="6.11"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
