@@ -32,7 +32,7 @@ public class WebEventListnerTesting implements WebDriverEventListener {
 	}
 
 	public void beforeNavigateTo(String url, WebDriver driver) {
-		// TODO Auto-generated method stub
+		System.out.println("In beforeNavigateTo");
 
 	}
 
