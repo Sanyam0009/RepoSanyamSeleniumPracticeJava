@@ -15,7 +15,7 @@ public class WebDriverEventListenerCalling {
 		WebDriver driver = new ChromeDriver();
 		
 		EventFiringWebDriver ef = new EventFiringWebDriver(driver);
-		WebEventListnerTesting eventListener = new WebEventListnerTesting();
+		WebEventListnerTesting eventListener = new WebEventListnerTesting(); //Creating object of class which implemented WebDriverEventListener
 		ef.register(eventListener);
 		ef.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		ef.get("https://freecrm.com/");

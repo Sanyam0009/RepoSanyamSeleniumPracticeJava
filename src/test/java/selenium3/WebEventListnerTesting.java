@@ -10,7 +10,7 @@ import org.openqa.selenium.support.events.WebDriverEventListener;
 import org.testng.annotations.Test;
 
 public class WebEventListnerTesting implements WebDriverEventListener {
-//Using the class and Listners in 
+//Using the class and Listners in WebDriverEventLisetnerCalling
 	public void beforeAlertAccept(WebDriver driver) {
 		// TODO Auto-generated method stub
 
