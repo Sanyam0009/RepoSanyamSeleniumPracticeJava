@@ -29,7 +29,7 @@ public class FindBrokenLinks {
 		for (int i = 0; i < links.size(); i++) {
 			if (links.get(i).getAttribute("href") != null) {
 				activeLinks.add(links.get(i));
-			}
+			} 
 		}
 		for (int j = 0; j < activeLinks.size(); j++) {
 			HttpURLConnection connection = (HttpURLConnection) new URL(activeLinks.get(j).getAttribute("href"))
