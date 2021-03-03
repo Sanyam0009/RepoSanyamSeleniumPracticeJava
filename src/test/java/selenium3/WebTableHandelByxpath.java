@@ -15,6 +15,7 @@ public class WebTableHandelByxpath {
 	public WebDriver driver;
 
 	@BeforeTest
+	
 	public void setup() {
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\$akshi\\workspace\\SeleniumPracticeJava\\drivers\\chromedriver.exe");
