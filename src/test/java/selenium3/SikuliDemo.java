@@ -12,8 +12,6 @@ import org.sikuli.script.Pattern;
 import org.sikuli.script.Screen;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class SikuliDemo {

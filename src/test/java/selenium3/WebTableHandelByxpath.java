@@ -18,7 +18,7 @@ public class WebTableHandelByxpath {
 	
 	public void setup() {
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\$akshi\\workspace\\SeleniumPracticeJava\\drivers\\chromedriver.exe");
+				System.getProperty("user.dir") + "/drivers/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		driver.manage().deleteAllCookies();
