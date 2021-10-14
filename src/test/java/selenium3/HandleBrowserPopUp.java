@@ -24,7 +24,7 @@ public class HandleBrowserPopUp {
 		driver.switchTo().window(chieldWindow);
 		System.out.println("Chiled Window URL - " + driver.getCurrentUrl());
 		driver.switchTo().window(parentWindow);
-		System.out.println("Parent Window Title - " + driver.getTitle());
+		System.out.println("TestParent Window Title - " + driver.getTitle());
 		driver.switchTo().window(chieldWindow);
 		driver.close(); // To Close the current Window
 		driver.switchTo().window(parentWindow);
